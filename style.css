@@ -1,3 +1,72 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
-    font-size: 12;
+    margin: 0
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#navbar {
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    padding-left: 150px;
+    padding-right: 150px;
+    overflow: hidden;
+}
+
+
+#navbar div {
+    padding: 15px 30px;
+}
+
+#navbar div:hover {
+    cursor: pointer;
+    background-color: #718093;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 50px;
+    height: 100vh;
+}
+
+.summary {
+    text-align: left;
+    margin-right: 90px;
+}
+
+.about-me .summary h1 {
+    font-size: 80px;
+    color: #cd6133;
+}
+
+.about-me .summary h3 {
+    text-align: left;
+    font-size: 40px;
+    color: #718093;
+}
+
+.about-me .summary h3 b {
+    color: #2C3A47;
+
+}
+
+.contact {
+    background-color: #f5f6fa;
+    padding: 50px;
 }
